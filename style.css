@@ -1,0 +1,268 @@
+:root{
+    --primary-color:#fff;
+    --secondary-color:#eee;
+    --dark-color:#000;
+    --lightdark:#222;
+    --opacity:rgba(0,0,0,0.7);
+    --beth:'Beth Ellen', cursive;
+    --grenze:'Grenze', serif;
+
+}
+
+img{
+    width:300px;
+    height:250px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:var(--grenze);
+    color:#333;
+    line-height: 1.6;
+    font-size:1.1rem;
+}
+
+.container{
+    max-width: 1100px;
+    overflow: hidden;
+    padding: 0 2rem;
+    margin:auto;
+}
+
+nav{
+    background: var(--lightdark);
+}
+
+nav .container{
+    
+    color:var(--secondary-color);
+    display: grid;
+    grid-template-columns: repeat(2,1fr)
+
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:var(--secondary-color);
+}
+
+nav .nav{
+    display:flex;
+    justify-self: end;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav a {
+    padding:0.1rem 1rem;
+}
+
+nav h2{
+    font-size: 2rem;
+    color:#2ea5d4;
+    margin-right:1rem;
+}
+
+nav .nav a:hover{
+    
+    color:#ccc;
+    
+}
+
+.section{
+    background: url("https://coresites-cdn.factorymedia.com/rcuk/wp-content/uploads/2018/04/Campagnolo_Super_Record_12_speed_first_ride_review-6.jpg");
+    background-size:cover;
+    height:780px;
+    display:grid;
+    grid-template-columns: 0.33fr;
+    padding:0 3rem;
+    margin:auto;
+}
+
+.section h2{
+    font-size:2rem;
+    font-family:var(--beth);
+}
+
+.bikes .content h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:2.3rem;
+    border-bottom: 2px solid gray;
+    width:30%;
+    margin:auto;
+    padding:0.2rem;
+}
+
+
+
+.bikes .content{
+    padding-top:1rem;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    background: var(--lightdark);
+    color: var(--primary-color);
+    text-align: center;
+    
+}
+
+
+
+.bikes .content div:nth-child(3), .bikes .content div:nth-child(4){
+    padding-top:1rem;
+    background: var(--primary-color);
+    color:var(--lightdark);
+    
+    justify-content: center;
+    align-content: center;
+}
+
+.bikes .content div:nth-child(3) a, .bikes .content div:nth-child(4) a{
+    color:var(--dark-color);
+}
+
+.bikes .content p{
+    
+    text-align: left;
+    padding-top:1rem;
+}
+
+
+    
+
+.btn {
+        font: bold 14px Arial;
+        text-decoration: none;
+        background-color: #EEEEEE;
+        color: #333333;
+        padding: 2px 6px 2px 6px;
+        border-top: 2px solid #CCCCCC;
+        border-right: 2px solid #333333;
+        border-bottom: 2px solid #333333;
+        border-left: 2px solid #CCCCCC;
+      }
+
+      
+.fa-facebook{
+    color:blue;
+}
+.fa-youtube{
+    color:red;
+}
+.fa-twitter{
+    color:rgb(23, 152, 238);
+}
+
+.contact{
+    background:#333;
+}
+
+.contact .container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    padding:2rem;
+    color:white;
+    text-align: center;
+}
+
+.contact .container h3{
+    font-size: 1.9rem;
+}
+
+footer{
+    background: #333;
+    color:white;
+    text-align: center;
+}
+
+@media (max-width:1100px){
+    nav .nav{
+        display:grid;
+        text-align: center;
+        grid-template-columns: repeat(3,1fr)
+
+        
+    }
+
+    nav h2{
+        font-size: 2rem;
+        color:#2ea5d4;
+        margin-right:1rem;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    nav .container{
+    
+        color:var(--secondary-color);
+        
+    
+    }
+
+    .bikes .content{
+        padding-top:1rem;
+        display:grid;
+        grid-template-columns:1fr;
+        background: var(--lightdark);
+        color: var(--primary-color);
+        text-align: center;
+        
+    }
+
+    img{
+        width:200px;
+        height: 175px;
+    }
+
+    .contact .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+    .contact .container div{
+        padding:0.35rem;
+    }
+
+    .contact .container div:nth-child(2){
+        display: none;
+    }
+
+    .section{
+        background: url("https://www.leinsterleader.ie/resizer/750/563/true/GN4_DAT_13287080.jpg--kildare_cycling_column__my_training_for_300km_to_cork.jpg");
+        height:500px;
+        display:grid;
+    grid-template-columns: 0.45fr;
+    color:#ddd;
+    }
+
+
+    .section p{
+        display:none;
+    }
+
+    .section h1{
+        width:40%;
+    margin:auto;
+    color:#ddd;
+    }
+
+
+
+
+}
+
+
+
