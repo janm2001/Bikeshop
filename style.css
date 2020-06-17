@@ -79,13 +79,14 @@ nav .nav a:hover{
 }
 
 .section{
-    background: url("https://coresites-cdn.factorymedia.com/rcuk/wp-content/uploads/2018/04/Campagnolo_Super_Record_12_speed_first_ride_review-6.jpg");
+    background: url("img/bg.jpg");
     background-size:cover;
     height:780px;
     display:grid;
     grid-template-columns: 0.33fr;
     padding:0 3rem;
     margin:auto;
+    color:#fff;
 }
 
 .section h2{
@@ -241,7 +242,7 @@ footer{
     }
 
     .section{
-        background: url("https://www.leinsterleader.ie/resizer/750/563/true/GN4_DAT_13287080.jpg--kildare_cycling_column__my_training_for_300km_to_cork.jpg");
+        background: url("img/bg2.jpg");
         height:500px;
         display:grid;
     grid-template-columns: 0.45fr;
